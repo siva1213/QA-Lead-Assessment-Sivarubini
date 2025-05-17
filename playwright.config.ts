@@ -27,6 +27,7 @@ export default defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://www.saucedemo.com',
+    viewport: null,
     headless: true,
     screenshot: 'only-on-failure',
     video: 'on',
@@ -53,7 +54,6 @@ export default defineConfig({
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
-      viewport: null,
     },
 
     /* Test against mobile viewports. */
