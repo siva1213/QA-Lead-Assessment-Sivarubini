@@ -1,6 +1,6 @@
 # Playwright Automation framework (Page object model)
 
-This framework is designed to be used as a boilerplate template to start automation testing quickly for any web application. The page object model is used to structure the test.
+This framework is designed for Part 2:Web Automation Framework question.
 
 ## Built With
 
@@ -37,7 +37,7 @@ npx playwright test tests/{specfile_name.ts}
 - It will run in Chromium,Firefox & Webkit browsers with headless mode by default
 - If you need to run it in UI mode, change the headless: false in playwright.config.ts
 - If you need to change the test data OR parameters, It can be changed in test-data.json file
-- It is used Page Object Model design pattern
+- Implemented cross-browser testing capability
 ## GitHub Actions
 
 - The workflow file is in directory .github/workflows named playwright.yml
